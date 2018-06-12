@@ -1,0 +1,26 @@
+html, body, header, nav, h1, a,
+ul, li, strong, main, button, i,
+section, img, div, h2, p, form,
+fieldset, label, input, textarea,
+span, article, footer, time, small {
+  font: "sans-serif";
+  font-family: Open Sans;
+}
+
+.clock {
+  background-color: orange;
+  background-image: url(https://unsplash.com/photos/eIhH7RTlTZA);
+  margin: 0 auto;
+  padding: 10px;
+  width: 550px;
+  height: 94px;
+  font-family: Orbitron;
+  font-size: 28px;
+  color: white;
+}
+
+.clock p {
+  margin: 12px;
+  display: flex;
+  justify-content: space-between;
+}
